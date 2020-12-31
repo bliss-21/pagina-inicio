@@ -1,0 +1,179 @@
+:root {
+    color: whitesmoke;
+    --fondo: #2A3440;
+
+    --media: #78BF97;
+    --social:#A85D64;
+    --perfil: #496585;
+    --otro: #D2BA8F;
+
+    --hover-link: #78BF97;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: var(--fondo);
+}
+
+li {
+    list-style:  none;
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+a { 
+    color: whitesmoke; 
+    text-decoration: none;
+} 
+a:hover { color:  var(--hover-link)} /* CSS link hover (green) */
+
+input[type=text] {
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    color: black;
+}
+
+.container{
+
+    margin-top: 50px;
+    height: max-content;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    flex-direction: column; 
+    align-items: center;
+
+}
+
+    .clock {
+        
+        font-size: 3em;
+        display: none;
+        font-weight: 900;
+
+    }
+
+    .mensaje {
+        font-size: 1.5em;
+    }
+
+    .title{
+        margin: 30px;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .busqueda{
+        margin: 50px;
+        text-align: center;
+    }
+
+    .barra{
+        height: 50px;
+        width: 600px;
+    }
+
+    .cuadricula{
+        width: 992px;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+        .box {
+
+            background-color: #3E4755;
+            padding: 10px;
+            height: 220px;
+            width: 200px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+    .title-box {    
+        
+        font-size: 2em;
+        font-weight: 900;
+        
+    }
+
+    .mensaje-inferior {
+        display: none;
+    }
+
+    .social{
+        color: var(--social);
+    }
+
+    .perfil{
+        color: var(--perfil);
+    }
+
+    .otro{
+        color: var(--otro);
+    }
+
+    .media{
+        color: var(--media);
+    }
+
+@media only screen and (max-width: 992px) {
+    .cuadricula{
+        width: 100%;
+    }
+
+    .mensaje {
+        font-size: 0.8em;
+    }
+
+    .box{
+        margin: 10px;
+    }
+
+    
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    
+    .mensaje {
+        display: none;
+    }
+    
+    .cuadricula{
+        flex-direction: column;      
+    }
+
+    .busqueda{
+        width: 90%;
+    }
+
+    .barra{
+        height: 50px;
+        width: 100%;
+    }
+
+    .box {
+        
+        height: auto;
+        width: 95%;
+        margin: 10px;
+    }
+
+    .clock {
+        
+        display: block;
+    }
+    
+} 
