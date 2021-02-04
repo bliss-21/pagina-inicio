@@ -34,7 +34,7 @@ a:hover { color:  var(--hover-link)} /* CSS link hover (green) */
 input[type=text] {
     padding-left: 20px;
     box-sizing: border-box;
-    border-radius: 15px;
+    border-radius: 4px;
     color: black;
 }
 
