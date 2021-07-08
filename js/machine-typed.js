@@ -1,9 +1,6 @@
 const typed = new Typed('.typed', {
 	strings: [
-        'Los hombres de ciencia algo sospechan,',
-        'pero ignoran casi todo de ese mundo,',
-        'los sabios interpretan sueños',
-        'y los dioses rien.'
+        'try to feel satisfied in my world',
 	],
 
 	//stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
