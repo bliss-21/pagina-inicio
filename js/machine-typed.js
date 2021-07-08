@@ -1,6 +1,6 @@
 const typed = new Typed('.typed', {
 	strings: [
-        'try to feel satisfied in my world',
+        'Try to feel satisfied in my world',
 	],
 
 	//stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
