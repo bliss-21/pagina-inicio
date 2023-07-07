@@ -1,6 +1,7 @@
 const typed = new Typed('.typed', {
 	strings: [
-        'Try to feel satisfied in my world',
+        	'Try to feel satisfied in my world',
+		'Cometer errores en la vida no solo es honorable, es más útil que no hacer nada',
 	],
 
 	//stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
