@@ -8,3 +8,4 @@
 ![Captura de como se ve el index](https://raw.githubusercontent.com/bliss-21/pagina-inicio/main/Captura.PNG)
 
 [Miralo Aqui](https://bliss-21.github.io/pagina-inicio/)
+
